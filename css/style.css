@@ -121,7 +121,7 @@ img{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
 }
 
@@ -362,6 +362,26 @@ img{
 }
 
 @media(max-width: 700px){
+    .showcase-top img {
+        top: 5px;
+        width: 35%;
+    }
+
+    .showcase-top a {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.9rem;
+        top: 40%;
+        right: -15px;
+    }
+
+    .showcase-content {
+        margin-top: 7rem;
+    }
+
+    .showcase-content h1 {
+        font-size: 2.5rem;
+    }
+
     .showcase::after{
         box-shadow: inset 80px 80px 250px #000000, inset -80px -80px 250px #000000;
     }
