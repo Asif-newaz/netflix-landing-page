@@ -382,6 +382,18 @@ img{
         font-size: 2.5rem;
     }
 
+    .btn {
+        margin-right: 0;
+    }
+
+    .tabs {
+        border-bottom: 0;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
     .showcase::after{
         box-shadow: inset 80px 80px 250px #000000, inset -80px -80px 250px #000000;
     }
