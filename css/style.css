@@ -411,4 +411,8 @@ img{
     #tab-2-content .tab-2-content-bottom{
         grid-template-columns: 1fr;
     }
+
+    #tab-3-content .text-center {
+        grid-template: none;
+    }
 }
