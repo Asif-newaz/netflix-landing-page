@@ -65,7 +65,7 @@ img{
 .showcase-top img{
     width: 170px;
     position: absolute;
-    left: 50%;
+    left: 8%;
     top: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
