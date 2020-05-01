@@ -440,6 +440,10 @@ img {
     }
 
     .table thead th {
+        font-size: 15px;
+    }
+
+    .table tbody tr td {
         font-size: 13px;
     }
 }
