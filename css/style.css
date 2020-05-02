@@ -446,4 +446,8 @@ img {
     .table tbody tr td {
         font-size: 13px;
     }
+
+    .table {
+        display: none;
+    }
 }
